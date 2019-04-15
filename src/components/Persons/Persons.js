@@ -13,6 +13,10 @@ class Persons extends Component {
             />;
         });
     }
+
+    componentWillUnmount() {
+        
+    }
 }
 
 export default Persons;
